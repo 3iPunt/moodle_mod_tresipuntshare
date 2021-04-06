@@ -99,3 +99,46 @@ function tresipuntshare_delete_instance($id) {
 
     return true;
 }
+
+/**
+ * Running addtional permission check on plugin, for example, plugins
+ * may have switch to turn on/off comments option, this callback will
+ * affect UI display, not like pluginname_comment_validate only throw
+ * exceptions.
+ * Capability check has been done in comment->check_permissions(), we
+ * don't need to do it again here.
+ *
+ * @package  mod_tresipuntshare
+ * @category comment
+ *
+ * @param stdClass $comment_param {
+ *              context  => context the context object
+ *              courseid => int course id
+ *              cm       => stdClass course module object
+ *              commentarea => string comment area
+ *              itemid      => int itemid
+ * }
+ * @return array
+ */
+function tresipuntshare_comment_permissions($comment_param) {
+    return array('post'=>true, 'view'=>true);
+}
+
+/**
+ * Validate comment parameter before perform other comments actions
+ *
+ * @package  mod_glossary
+ * @category comment
+ *
+ * @param stdClass $comment_param {
+ *              context  => context the context object
+ *              courseid => int course id
+ *              cm       => stdClass course module object
+ *              commentarea => string comment area
+ *              itemid      => int itemid
+ * }
+ * @return boolean
+ */
+function tresipuntshare_comment_validate($comment_param) {
+    return true;
+}
