@@ -2,6 +2,14 @@
 
 This module allows the teacher to share a comment and for the students to respond.
 
+## Instalation
+
+Copy project inside Moodle folder
+
+```
+/mod/tresipuntshare/
+```
+
 ## License ##
 
 2021 Tresipunt <contacte@tresipunt.com>
