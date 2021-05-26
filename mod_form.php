@@ -66,6 +66,8 @@ class mod_tresipuntshare_mod_form extends moodleform_mod {
         $mform->addHelpButton(
             'name', 'comment', 'mod_tresipuntshare');
 
+        $this->standard_intro_elements();
+
         $mform->addElement('hidden', 'teacher', $USER->id);
         $mform->setType('teacher', PARAM_INT);
 
