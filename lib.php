@@ -33,7 +33,7 @@ defined('MOODLE_INTERNAL') || die();
 function tresipuntshare_supports($feature) {
     switch ($feature) {
         case FEATURE_MOD_INTRO:
-            return false;
+            return true;
         case FEATURE_MOD_ARCHETYPE:
             return MOD_ARCHETYPE_RESOURCE;
         default:

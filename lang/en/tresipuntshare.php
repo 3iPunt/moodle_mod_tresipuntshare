@@ -34,3 +34,5 @@ $string['comment_help'] = 'Write a comment to post in the classroom';
 $string['settings'] = 'Settings';
 $string['fieldset'] = 'Fieldset';
 $string['pluginadministration'] = 'Share Comment administration';
+$string['tresipuntshare:addinstance'] = 'Add instance Tresipunt Share';
+$string['tresipuntshare:view'] = 'View Tresipunt Share';

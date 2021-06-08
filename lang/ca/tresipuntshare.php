@@ -34,3 +34,5 @@ $string['comment_help'] = "Escriviu un comentari per publicar a l'aula";
 $string['settings'] = 'Configuració';
 $string['fieldset'] = 'Conjunt de camp';
 $string['pluginadministration'] = 'Comparteix comentari administració';
+$string['tresipuntshare:addinstance'] = 'Afegir instància Tresipunt Share';
+$string['tresipuntshare:view'] = 'Veure Tresipunt Share';
