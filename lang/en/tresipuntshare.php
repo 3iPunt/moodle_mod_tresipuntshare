@@ -25,14 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Share Comment';
-$string['modulename'] = 'Share Comment';
-$string['modulenameplural'] = 'Share Comments';
+$string['pluginname'] = 'Share Publication';
+$string['modulename'] = 'Share Publication';
+$string['modulenameplural'] = 'Share Publications';
 $string['missingidandcmid'] = 'Course module not found';
-$string['comment'] = 'Comment';
-$string['comment_help'] = 'Write a comment to post in the classroom';
+$string['comment'] = 'Publication';
+$string['comment_help'] = 'Write a publication to post in the classroom';
 $string['settings'] = 'Settings';
 $string['fieldset'] = 'Fieldset';
-$string['pluginadministration'] = 'Share Comment administration';
-$string['tresipuntshare:addinstance'] = 'Add instance Tresipunt Share';
-$string['tresipuntshare:view'] = 'View Tresipunt Share';
+$string['pluginadministration'] = 'Share publication administration';
+$string['tresipuntshare:addinstance'] = 'Add publication';
+$string['tresipuntshare:view'] = 'View publicación';
