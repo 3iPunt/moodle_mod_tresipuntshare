@@ -25,14 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Comparteix comentari';
-$string['modulename'] = 'Comparteix comentari';
-$string['modulenameplural'] = 'Comparteix comentaris';
+$string['pluginname'] = 'Comparteix publicació';
+$string['modulename'] = 'Comparteix publicació';
+$string['modulenameplural'] = 'Comparteix publicacions';
 $string['missingidandcmid'] = "No s'ha trobat el mòdul del curs";
-$string['comment'] = 'Comentari';
-$string['comment_help'] = "Escriviu un comentari per publicar a l'aula";
+$string['comment'] = 'Publicació';
+$string['comment_help'] = "Escriviu una publicació per publicar a l'aula";
 $string['settings'] = 'Configuració';
 $string['fieldset'] = 'Conjunt de camp';
-$string['pluginadministration'] = 'Comparteix comentari administració';
+$string['pluginadministration'] = 'Comparteix publicació administració';
 $string['tresipuntshare:addinstance'] = 'Afegir instància Tresipunt Share';
 $string['tresipuntshare:view'] = 'Veure Tresipunt Share';

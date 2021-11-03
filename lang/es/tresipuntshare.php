@@ -25,14 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Compartir comentario';
-$string['modulename'] = 'Compartir comentario';
-$string['modulenameplural'] = 'Compartir comentarios';
+$string['pluginname'] = 'Compartir publicación';
+$string['modulename'] = 'Compartir publicación';
+$string['modulenameplural'] = 'Compartir publicaciones';
 $string['missingidandcmid'] = 'Módulo del curso no encontrado';
-$string['comment'] = 'Comentario';
-$string['comment_help'] = 'Escribe un comentario para publicar en el aula.';
+$string['comment'] = 'Publicación';
+$string['comment_help'] = 'Escribe una publicación en el aula.';
 $string['settings'] = 'Ajustes';
 $string['fieldset'] = 'Conjunto de campos';
-$string['pluginadministration'] = 'Administración compartir comentario';
+$string['pluginadministration'] = 'Administración compartir publicación';
 $string['tresipuntshare:addinstance'] = 'Añadir instancia Tresipunt Share';
 $string['tresipuntshare:view'] = 'Ver Tresipunt Share';
